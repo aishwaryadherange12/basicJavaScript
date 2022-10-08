@@ -10,6 +10,7 @@ console.log("\n")
 
 //error console.log(b) beacuse of const b cant be change
 
+//Function use for repetation of code
 //function keyword function name(parameters){blocks
 //statements
 //}
