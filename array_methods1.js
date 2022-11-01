@@ -8,12 +8,14 @@
 //reverse()==>reverse array return reversed array
 //join()==> join elements in array 
 //sort()==> sort element in array
+// concat() =>Concat 2 Arrays elements
+
 
 let fruits=["mango",'apple','grapes']
 // console.log(fruits.length) //3
-// //1. push()
-// //action => add the element at last of array
-// //return => new length
+//1. push()
+//action => add the element at last of array
+//return => new length
 console.log(fruits)
 let a=fruits.push("papaya")
 console.log(a)
@@ -70,8 +72,7 @@ let names = ['vish','ashwini','pooja','aish']
 let sortNames = names.sort()
 console.log(sortNames)//aish, ashwini, pooja, vaish
 
-// concat() =>Concat 2 Arrays elements
-
+//10. concat() =>Concat 2 Arrays elements
 fruits1 = ["apple", "banana", "kiwi"]
 fruits2 = ["grapes", "strwaberry", "cherry"]
 
