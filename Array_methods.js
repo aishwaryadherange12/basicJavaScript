@@ -69,3 +69,11 @@ console.log(g) //1@2@3
 let names = ['vish','ashwini','pooja','aish']
 let sortNames = names.sort()
 console.log(sortNames)//aish, ashwini, pooja, vaish
+
+// concat() =>Concat 2 Arrays elements
+
+fruits1 = ["apple", "banana", "kiwi"]
+fruits2 = ["grapes", "strwaberry", "cherry"]
+
+console.log(fruits1.concat(fruits2))//[ 'apple', 'banana', 'kiwi', 'grapes', 'strwaberry', 'cherry' ]
+console.log(fruits2.concat(fruits1))//[ 'grapes', 'strwaberry', 'cherry', 'apple', 'banana', 'kiwi' ]
