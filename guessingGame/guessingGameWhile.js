@@ -13,4 +13,5 @@ while(randomNumber!=userInput){
     else {
         console.log('Guess is incorrect , please try again !')
     }
+        
 }

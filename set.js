@@ -5,8 +5,7 @@
 
 //SET
 //property==> size
-//SET methods==> add(),has(),clear,delete,foreach
-//MAP methods==> set(),has(),get(),clear(),delete(),foreach
+//SET methods==> add(),has(),clear(),delete(),foreach()
 
 //set does not store by index
 let setA = new Set()

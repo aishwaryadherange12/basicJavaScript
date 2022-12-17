@@ -7,7 +7,6 @@
 
 //MAP
 //property==> size
-//SET methods==> add(),has(),clear,delete,foreach
 //MAP methods==> set(),has(),get(),clear(),delete(),foreach
 
 //Map having key value pair
@@ -17,8 +16,10 @@ console.log(myMap)//Map(0) {}
 //1.add key and pairs
 myMap.set("fname","aish")
 console.log(myMap)//Map(1) { 'fname' => 'aish' }
+
 myMap.set(1,"marathi")
 console.log(myMap)//Map(1) { 'fname' => 'aish', 1 => 'marathi' }
+
 myMap.set(true,"isStudent")
 // myMap.set(["java","py"],"skills")
 console.log(myMap)//Map(1) { 'fname' => 'aish', 1 => 'marathi' , true => 'isStudent' }
