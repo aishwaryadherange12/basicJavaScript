@@ -83,4 +83,4 @@ let student = {
 }
 let { firstName: fN, rollnumber: rn, skills: [s1, s2, s3] } = student
 console.log(fN) //aishwarya
-console.log(s1) //js 
+console.log(s1) //js

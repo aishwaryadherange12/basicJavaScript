@@ -1,4 +1,5 @@
-//Solution Of Async Wait
+//Solution Of Async Wait to all
+
 function singleUserInfo(id) {
   return fetch(`https://reqres.in/api/users/${id}`)
     .then(function (res) {

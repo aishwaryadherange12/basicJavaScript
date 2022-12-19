@@ -1,4 +1,3 @@
-
 function SingleUserDisplay(id) {
   return fetch(`https://reqres.in/api/users/${id}`)
     .then(function (res) {
@@ -25,6 +24,3 @@ SingleUser(1, 2, 3); //Given Id User Info Print
 
 //---------------Solution-----------------------
 //Therefore We Use Parallel Execution
-
-
-
